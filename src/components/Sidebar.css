@@ -1,0 +1,42 @@
+.sidebar {
+  width: 220px;
+  background-color: #029D95;
+  color: white;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+}
+
+.sidebar h2 {
+  font-size: 1.5rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 1rem;
+  cursor: pointer;
+  color: white;
+}
+
+.sidebar .Title{
+  font-size: 2rem;
+}
+
+.sidebar-link {
+  display: block;
+  margin-top: 1rem;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.sidebar-link:hover {
+  text-decoration: wavy;
+  color: #ffffff;
+}

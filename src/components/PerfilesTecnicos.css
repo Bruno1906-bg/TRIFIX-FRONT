@@ -1,0 +1,92 @@
+.perfiles-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.perfiles-content {
+  flex: 1;
+  padding: 2rem;
+  background-color: #f4f4f4;
+  overflow-y: auto;
+}
+
+.perfiles-banner {
+  background-color: #029D95;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.perfiles-banner h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.perfiles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.perfil-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  padding: 1.5rem;
+  text-align: center;
+  border-left: 6px solid #49B9B3;}
+
+.perfil-foto {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.perfil-card h2 {
+  margin: 0.5rem 0;
+  color: #000000;
+}
+
+.perfil-card p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+.perfil-reseñas {
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.perfil-reseñas ul {
+  padding-left: 1.2rem;
+  margin: 0.5rem 0 0;
+}
+
+.perfil-reseñas li {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.btn-mensaje {
+  margin-top: 1rem;
+  background-color: #029D95;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-mensaje:hover {
+  background-color: #18c7be;
+}
+

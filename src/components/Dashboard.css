@@ -1,0 +1,13 @@
+.dashboard {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.dashboard-main {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+  background-color: #f4f4f4;
+  color: #000;
+}

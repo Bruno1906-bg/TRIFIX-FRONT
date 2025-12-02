@@ -1,0 +1,66 @@
+.publicar-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.publicar-content {
+  flex: 1;
+  padding: 2rem;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.publicar-wrapper {
+  max-width: 700px;
+  width: 100%;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.25);
+}
+
+.publicar-titulo {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #000;
+  text-align: center;
+}
+
+.publicar-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.publicar-form input,
+.publicar-form textarea,
+.publicar-form select {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.publicar-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.btn-publicar {
+  background-color: #029D95;
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-publicar:hover {
+  background-color: #18c7be;
+}
